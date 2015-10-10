@@ -11,4 +11,13 @@
     <color name="button.login.register.text">#0099FF</color>
     <color name="button.login.login.text">#FFFFFF</color>
     <color name="textview.login.color.error">#FF0000</color>
+
+    <!--color file register-->
+    <color name="button.register.login.background">#FFFFFF</color>
+    <color name="button.register.login.text">#0099FF</color>
+    <color name="button.register.register.background">#0099FF</color>
+    <color name="button.register.register.text">#FFFFFF</color>
+    <color name="textview.register.color.error">#FF0000</color>
+    <color name="linearlayout.register.register.background">#FFFFFF</color>
+    <color name="linearlayout.register.avatar.background">#0099FF</color>
 </resources>

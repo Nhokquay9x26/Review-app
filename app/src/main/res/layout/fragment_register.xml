@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_splashscreen">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnLogin"
+        android:layout_margin="@dimen/relativelayout.register.margin.23dp">
+
+        <LinearLayout
+            android:id="@+id/ln_avatar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/linearlayout.register.avatar.background"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <asiantech.nhokquay9x26.appreviewasiantech.views.CircleImageView
+                android:id="@+id/imgAvatar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/circleimage.register.margin.10dp"
+                android:src="@drawable/ic_avatar" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/textview.register.text.tap_to_change_avatar"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="5"
+            android:padding="@dimen/linearlayout.register.register.padding.15dp"
+            android:orientation="vertical"
+            android:background="@color/linearlayout.register.register.background"
+            android:layout_below="@+id/ln_avatar">
+
+            <EditText
+                android:id="@+id/edtUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/edittext.register.hint.username"/>
+
+
+            <EditText
+                android:id="@+id/edtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/edittext.register.hint.email"/>
+
+            <EditText
+                android:id="@+id/edtPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/edittext.register.hint.password"/>
+
+            <EditText
+                android:id="@+id/edtConfirmPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/edittext.register.hint.confirm_password"/>
+
+            <CheckBox
+                android:id="@+id/checkBoxAgree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/checkbox.register.text.agree"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/tvError"
+                android:textColor="@color/textview.register.color.error"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/button.register.register.text"
+                android:textStyle="bold"
+                android:background="@color/button.register.register.background"
+                android:text="@string/button.register.text.register"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/button.register.margin_left.23dp"
+        android:layout_marginRight="@dimen/button.register.margin_right.23dp"
+        android:textStyle="bold"
+        android:background="@color/button.register.login.background"
+        android:textColor="@color/button.register.login.text"
+        android:text="@string/button.register.text.login" />
+
+</RelativeLayout>
