@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">AppReviewAsianTech</string>
+
+    <!--string file login-->
+    <string name="edittext.login.hint.username">Username/Email</string>
+    <string name="edittext.login.hint.password">Password</string>
+    <string name="button.login.text.register">Register</string>
+    <string name="button.login.text.login">Login</string>
+    <string name="textview.login.text.forget_password">Forget Password</string>
+    <string name="textview.login.text.tap_to_change_avatar">Tap to image change avatar</string>
+    <string name="checkbox.login.text.remember_password">Remember Password</string>
 </resources>

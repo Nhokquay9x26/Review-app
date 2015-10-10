@@ -1,4 +1,4 @@
-package asiantech.nhokquay9x26.appreviewasiantech.adapter;
+package asiantech.nhokquay9x26.appreviewasiantech.activites;
 
 import org.androidannotations.annotations.EActivity;
 import asiantech.nhokquay9x26.appreviewasiantech.R;

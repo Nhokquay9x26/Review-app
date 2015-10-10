@@ -1,4 +1,4 @@
-package asiantech.nhokquay9x26.appreviewasiantech.adapter;
+package asiantech.nhokquay9x26.appreviewasiantech.activites;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
