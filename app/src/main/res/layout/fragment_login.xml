@@ -25,12 +25,6 @@
                 android:layout_margin="@dimen/circleimage.login.margin.10dp"
                 android:src="@drawable/ic_avatar" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="@string/textview.login.text.tap_to_change_avatar"/>
-
         </LinearLayout>
 
         <LinearLayout

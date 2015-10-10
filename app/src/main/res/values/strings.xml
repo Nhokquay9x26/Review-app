@@ -7,6 +7,16 @@
     <string name="button.login.text.register">Register</string>
     <string name="button.login.text.login">Login</string>
     <string name="textview.login.text.forget_password">Forget Password</string>
-    <string name="textview.login.text.tap_to_change_avatar">Tap to image change avatar</string>
     <string name="checkbox.login.text.remember_password">Remember Password</string>
+
+    <!--string file registe-->
+    <string name="textview.register.text.tap_to_change_avatar">Tap to change profile image</string>
+    <string name="button.register.text.login">Login</string>
+    <string name="button.register.text.register">Register</string>
+    <string name="checkbox.register.text.agree">I agree</string>
+    <string name="edittext.register.hint.username">Username</string>
+    <string name="edittext.register.hint.email">Email</string>
+    <string name="edittext.register.hint.password">Password</string>
+    <string name="edittext.register.hint.confirm_password">ConfirmPassword</string>
+
 </resources>

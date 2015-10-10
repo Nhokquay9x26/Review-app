@@ -10,4 +10,12 @@
     <dimen name="button.login.margin_right.23dp">23dp</dimen>
     <dimen name="linearlayout.login.login.padding.15dp">15dp</dimen>
     <dimen name="textview.login.margin.forget_password.15dp">15dp</dimen>
+
+    <!--dimen file register-->
+    <dimen name="button.register.margin_left.23dp">23dp</dimen>
+    <dimen name="button.register.margin_right.23dp">23dp</dimen>
+    <dimen name="linearlayout.register.register.padding.15dp">15dp</dimen>
+    <dimen name="relativelayout.register.margin.23dp">23dp</dimen>
+    <dimen name="circleimage.register.margin.10dp">10dp</dimen>
+
 </resources>
