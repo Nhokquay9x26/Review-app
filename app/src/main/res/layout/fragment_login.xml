@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_splashscreen">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnRegister"
+        android:layout_margin="@dimen/relativelayout.login.margin.23dp">
+
+        <LinearLayout
+            android:id="@+id/ln_avatar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/linearlayout.login.avatar.background"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <asiantech.nhokquay9x26.appreviewasiantech.views.CircleImageView
+                android:id="@+id/imgAvatar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/circleimage.login.margin.10dp"
+                android:src="@drawable/ic_avatar" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/textview.login.text.tap_to_change_avatar"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="3"
+            android:padding="@dimen/linearlayout.login.login.padding.15dp"
+            android:orientation="vertical"
+            android:background="@color/linearlayout.login.login.background"
+            android:layout_below="@+id/ln_avatar">
+
+            <EditText
+                android:id="@+id/edtUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/edittext.login.hint.username"/>
+
+            <EditText
+                android:id="@+id/edtPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/edittext.login.hint.password"/>
+
+            <CheckBox
+                android:id="@+id/checkBoxPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/checkbox.login.text.remember_password"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/tvError"
+                android:textColor="@color/textview.login.color.error"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/button.login.login.text"
+                android:textStyle="bold"
+                android:background="@color/button.login.login.background"
+                android:text="@string/button.login.text.login"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/textview.login.margin.forget_password.15dp"
+                android:gravity="center"
+                android:textColor="@color/textview.login.color.forget_password"
+                android:text="@string/textview.login.text.forget_password"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/button.login.margin_left.23dp"
+        android:layout_marginRight="@dimen/button.login.margin_right.23dp"
+        android:textStyle="bold"
+        android:background="@color/button.login.register.background"
+        android:textColor="@color/button.login.register.text"
+        android:text="@string/button.login.text.register" />
+
+</RelativeLayout>

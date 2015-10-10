@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+
+    <!--color file login-->
+    <color name="linearlayout.login.avatar.background">#0099FF</color>
+    <color name="linearlayout.login.login.background">#FFFFFF</color>
+    <color name="edittext.login.line">#0099FF</color>
+    <color name="button.login.register.background">#FFFFFF</color>
+    <color name="button.login.login.background">#0099FF</color>
+    <color name="textview.login.color.forget_password">#0099FF</color>
+    <color name="button.login.register.text">#0099FF</color>
+    <color name="button.login.login.text">#FFFFFF</color>
+    <color name="textview.login.color.error">#FF0000</color>
 </resources>
