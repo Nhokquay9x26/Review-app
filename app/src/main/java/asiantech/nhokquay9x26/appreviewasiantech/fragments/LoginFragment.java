@@ -12,6 +12,7 @@ import org.androidannotations.annotations.FragmentByTag;
 
 import asiantech.nhokquay9x26.appreviewasiantech.R;
 import asiantech.nhokquay9x26.appreviewasiantech.activites.IntializeActivity_;
+import asiantech.nhokquay9x26.appreviewasiantech.activites.MainActivity_;
 
 /**
  * Created by nhokquay9x26 on 11/10/15.
@@ -33,11 +34,16 @@ public class LoginFragment extends BaseFragment {
         }
         ((IntializeActivity_) getActivity()).replaceFragment(mRegisteFragment);
     }
+
+    @Click(R.id.btnLogin)
+    void Login(){
+        MainActivity_.intent(getActivity()).start();
+    }
     @Click(R.id.tvForgetPassword)
     void forgetPassword(){
         final Dialog dialog = new Dialog(getContext(), R.style.Theme_Dialog);
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
-        dialog.setContentView(R.layout.forget_password);
+        dialog.setContentView(R.layout.dialog_forget_password);
         dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         dialog.setCanceledOnTouchOutside(false);
         dialog.show();

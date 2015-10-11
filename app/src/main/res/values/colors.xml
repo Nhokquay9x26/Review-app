@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <color name="background_tab_pressed">#6633B5E5</color>
     <!--color file login-->
     <color name="linearlayout.login.avatar.background">#0099FF</color>
     <color name="linearlayout.login.login.background">#FFFFFF</color>
@@ -28,4 +29,5 @@
     <color name="view.forgetpassword.background">#B0B0B5</color>
     <color name="textview.forgetpassword.reset_password">#FFFFFF</color>
     <color name="edittext.forgetpassword.username.hint">#FFFFFF</color>
+    <color name="tab_background">#dfe8f1</color>
 </resources>

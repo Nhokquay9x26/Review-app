@@ -18,7 +18,7 @@
     <dimen name="relativelayout.register.margin.23dp">23dp</dimen>
     <dimen name="circleimage.register.margin.10dp">10dp</dimen>
 
-    <!--dimen file forget_password-->
+    <!--dimen file dialog_forget_password-->
     <dimen name="textview.forgetpassword.margin.10dp">10dp</dimen>
     <dimen name="textview.forgetpassword.size.18sp">18sp</dimen>
     <dimen name="button.forgetpassword.size.18sp">18sp</dimen>
