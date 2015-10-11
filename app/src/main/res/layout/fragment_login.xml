@@ -73,6 +73,7 @@
                 android:text="@string/button.login.text.login"/>
 
             <TextView
+                android:id="@+id/tvForgetPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/textview.login.margin.forget_password.15dp"

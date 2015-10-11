@@ -19,4 +19,10 @@
     <string name="edittext.register.hint.password">Password</string>
     <string name="edittext.register.hint.confirm_password">ConfirmPassword</string>
 
+    <!--string file forgetpassword-->
+    <string name="textview.forgetpassword.text.reset_password">Reset Password</string>
+    <string name="edittext.forgetpassword.text.username">Username/Email</string>
+    <string name="button.forgetpassword.text.ok">Ok</string>
+    <string name="button.forgetpassword.text.cancel">Cancel</string>
+
 </resources>

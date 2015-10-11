@@ -20,4 +20,12 @@
     <color name="textview.register.color.error">#FF0000</color>
     <color name="linearlayout.register.register.background">#FFFFFF</color>
     <color name="linearlayout.register.avatar.background">#0099FF</color>
+
+    <!--color file forgetpassword-->
+    <color name="button.forgetpassword.background">#00FFFFFF</color>
+    <color name="button.forgetpassword.text">#FFFFFF</color>
+    <color name="edittext.forgetpassword.username">#FFFFFF</color>
+    <color name="view.forgetpassword.background">#B0B0B5</color>
+    <color name="textview.forgetpassword.reset_password">#FFFFFF</color>
+    <color name="edittext.forgetpassword.username.hint">#FFFFFF</color>
 </resources>
