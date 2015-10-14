@@ -1,6 +1,7 @@
 package asiantech.nhokquay9x26.appreviewasiantech.fragments;
 
 import android.app.Dialog;
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.view.Window;
@@ -12,6 +13,7 @@ import org.androidannotations.annotations.FragmentByTag;
 
 import asiantech.nhokquay9x26.appreviewasiantech.R;
 import asiantech.nhokquay9x26.appreviewasiantech.activites.IntializeActivity_;
+import asiantech.nhokquay9x26.appreviewasiantech.activites.MainActivity;
 import asiantech.nhokquay9x26.appreviewasiantech.activites.MainActivity_;
 
 /**

@@ -11,7 +11,7 @@
         android:layout_margin="@dimen/relativelayout.login.margin.23dp">
 
         <LinearLayout
-            android:id="@+id/ln_avatar"
+            android:id="@+id/llAvatar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/linearlayout.login.avatar.background"
@@ -34,7 +34,7 @@
             android:padding="@dimen/linearlayout.login.login.padding.15dp"
             android:orientation="vertical"
             android:background="@color/linearlayout.login.login.background"
-            android:layout_below="@+id/ln_avatar">
+            android:layout_below="@+id/llAvatar">
 
             <EditText
                 android:id="@+id/edtUsername"

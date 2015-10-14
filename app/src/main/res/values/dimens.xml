@@ -25,4 +25,17 @@
     <dimen name="view.forgetpassword.width.1dp">1dp</dimen>
     <dimen name="view.forgetpassword.height.1dp">1dp</dimen>
 
+    <!--dimen file fragment home-->
+    <dimen name="relativelayout.home.padding.5dp">5dp</dimen>
+    <dimen name="relativelayout.home.padding.question.5dp">5dp</dimen>
+
+    <!--dimen file item home-->
+    <dimen name="relativelayout.item_home.padding.5dp">5dp</dimen>
+    <dimen name="image.item_home.margin.5dp">5dp</dimen>
+    <dimen name="linearlayout.item_home.margin.5dp">5dp</dimen>
+    <dimen name="image.item_home.height.40dp">40dp</dimen>
+    <dimen name="textview.item_home.text.size.18sp">18sp</dimen>
+    <dimen name="image.item_home.margin_left.10dp">10dp</dimen>
+    <dimen name="linearlayout.item_home.margin_top.5dp">5dp</dimen>
+
 </resources>

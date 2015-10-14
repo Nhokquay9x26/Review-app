@@ -29,5 +29,17 @@
     <color name="view.forgetpassword.background">#B0B0B5</color>
     <color name="textview.forgetpassword.reset_password">#FFFFFF</color>
     <color name="edittext.forgetpassword.username.hint">#FFFFFF</color>
+
+    <!--color file fragment_main-->
     <color name="tab_background">#dfe8f1</color>
+
+    <!--color file home-->
+    <color name="relativelayout.home.background">#C0C0C0</color>
+    <color name="button.home.background.post">#0099FF</color>
+    <color name="button.home.text.post">#FFFFFF</color>
+
+    <!--color file item home-->
+    <color name="relativelayout.item_home.background">#C0C0C0</color>
+    <color name="textview.item_home.text.username">#0099FF</color>
+    <color name="textview.item_home.text.time">#000000</color>
 </resources>

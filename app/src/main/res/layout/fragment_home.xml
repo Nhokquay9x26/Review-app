@@ -1,12 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:padding="@dimen/relativelayout.home.padding.5dp">
 
-    <TextView
+    <RelativeLayout
+        android:id="@+id/rlQuestion"
+        android:padding="@dimen/relativelayout.home.padding.question.5dp"
+        android:background="@drawable/shape_post"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="home"/>
+        android:layout_height="wrap_content">
 
+        <asiantech.nhokquay9x26.appreviewasiantech.views.CircleImageView
+            android:id="@+id/imgAvatar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_avatar" />
+
+        <EditText
+            android:id="@+id/edtQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imgAvatar"
+            android:hint="@string/edittext.home.text.hint.what_are_you_question" />
+
+        <Button
+            android:id="@+id/btnPost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/edtQuestion"
+            android:background="@drawable/shape_button"
+            android:text="@string/button.home.text.post"
+            android:textColor="@color/button.home.text.post" />
+    </RelativeLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycleViewQuestion"
+        android:layout_below="@+id/rlQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
 </RelativeLayout>

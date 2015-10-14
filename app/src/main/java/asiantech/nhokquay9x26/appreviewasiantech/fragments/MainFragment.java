@@ -1,6 +1,5 @@
 package asiantech.nhokquay9x26.appreviewasiantech.fragments;
 
-import android.content.res.ColorStateList;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.view.ViewPager;
@@ -49,8 +48,6 @@ public class MainFragment extends BaseFragment implements ViewPager.OnPageChange
         mTabSlidingAdapter.setDividerColor(0x30FFFFFF);
         mTabSlidingAdapter.setIndicatorColor(0x0033b5e5);
         mTabSlidingAdapter.setOnPageChangeListener(this);
-//        ColorStateList colors = getResources().getColorStateList(R.drawable.bg_tab_title);
-//        mTabSlidingAdapter.setTextColorResource(colors);
     }
 
     @Override
