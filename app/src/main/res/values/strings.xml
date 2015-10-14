@@ -25,4 +25,8 @@
     <string name="button.forgetpassword.text.ok">Ok</string>
     <string name="button.forgetpassword.text.cancel">Cancel</string>
 
+    <!--string file home-->
+    <string name="edittext.home.text.hint.what_are_you_question">What are you question?</string>
+    <string name="button.home.text.post">Post</string>
+
 </resources>

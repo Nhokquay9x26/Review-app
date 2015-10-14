@@ -62,7 +62,6 @@ public class PagerAdapter extends FragmentPagerAdapter implements PagerSlidingTa
         View v = LayoutInflater.from(mContext.getActivity()).inflate(R.layout.custom_item_tab, null, false);
         TextView title = (TextView) v.findViewById(R.id.title);
         ImageView icon = (ImageView) v.findViewById(R.id.thumb);
-//        TextView notify = (TextView) v.findViewById(R.id.tvNotificationCount);
 
         icon.setImageResource(tabItems.get(position).getDrawableResource());
         title.setText(tabItems.get(position).getTitle());
