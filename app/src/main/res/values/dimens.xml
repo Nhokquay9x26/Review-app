@@ -51,4 +51,14 @@
     <dimen name="relativelayout.top.margin.10dp">10dp</dimen>
     <dimen name="linearlayout.item_top.padding.5dp">5dp</dimen>
     <dimen name="textview.item_top.text.size.18sp">18sp</dimen>
+
+    <!--dimen file profile-->
+    <dimen name="textview.profile.size.18sp">18sp</dimen>
+    <dimen name="textview.profile.padding.5dp">5dp</dimen>
+    <dimen name="image.profile.margin_top.30dp">30dp</dimen>
+    <dimen name="linearlayout.profile.padding.avatar.5dp">5dp</dimen>
+    <dimen name="textview.profile.margin_top.5dp">5dp</dimen>
+    <dimen name="image.profile.margin.setting.5dp">5dp</dimen>
+    <dimen name="textview.profile.infomation.margin_top.20dp">20dp</dimen>
+    <dimen name="linearlayout.profile.margin.5dp">5dp</dimen>
 </resources>
