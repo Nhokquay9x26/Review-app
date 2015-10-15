@@ -46,4 +46,9 @@
     <dimen name="view.test_custom.height.1dp">1dp</dimen>
     <dimen name="view.test_custom.margin.5dp">5dp</dimen>
     <dimen name="relativelayout.test_custom.margin_bottom.20dp">20dp</dimen>
+
+    <!--dimen file top-->
+    <dimen name="relativelayout.top.margin.10dp">10dp</dimen>
+    <dimen name="linearlayout.item_top.padding.5dp">5dp</dimen>
+    <dimen name="textview.item_top.text.size.18sp">18sp</dimen>
 </resources>
