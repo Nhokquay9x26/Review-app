@@ -61,4 +61,7 @@
     <dimen name="image.profile.margin.setting.5dp">5dp</dimen>
     <dimen name="textview.profile.infomation.margin_top.20dp">20dp</dimen>
     <dimen name="linearlayout.profile.margin.5dp">5dp</dimen>
+
+    <!--dimen file spinner-->
+    <dimen name="spinner.profile.margin.10dp">10dp</dimen>
 </resources>
