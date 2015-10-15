@@ -1,9 +1,123 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/relativelayout.profile.background">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/image.profile.margin.setting.5dp"
+        android:src="@drawable/ic_setting" />
 
+    <LinearLayout
+        android:id="@+id/llAvatar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/linearlayout.profile.avatar.background"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/linearlayout.profile.padding.avatar.5dp">
+
+        <asiantech.nhokquay9x26.appreviewasiantech.views.CircleImageView
+            android:id="@+id/imgAvatar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/image.profile.margin_top.30dp"
+            android:src="@drawable/ic_avatar" />
+
+        <TextView
+            android:id="@+id/tvPoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/textview.profile.margin_top.5dp"
+            android:background="@drawable/shape_point"
+            android:padding="@dimen/textview.profile.padding.5dp"
+            android:text="50 point"
+            android:textColor="@color/textview.profile.text"
+            android:textSize="@dimen/textview.profile.size.18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llInfomation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llAvatar"
+        android:layout_margin="@dimen/linearlayout.profile.margin.5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/textview.profile.infomation.margin_top.20dp"
+            android:text="@string/textview.profile.text.username"
+            android:textSize="@dimen/textview.profile.size.18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/textview.profile.infomation.margin_top.20dp"
+            android:text="@string/textview.profile.text.gender"
+            android:textSize="@dimen/textview.profile.size.18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/textview.profile.infomation.margin_top.20dp"
+            android:text="@string/textview.profile.text.email"
+            android:textSize="@dimen/textview.profile.size.18sp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llAvatar"
+        android:layout_margin="@dimen/linearlayout.profile.margin.5dp"
+        android:layout_toRightOf="@+id/llInfomation"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/textview.profile.infomation.margin_top.20dp"
+            android:textColor="@color/textview.profile.text"
+            android:textSize="@dimen/textview.profile.size.18sp" />
+
+        <TextView
+            android:id="@+id/tvGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tvUsername"
+            android:layout_marginTop="@dimen/textview.profile.infomation.margin_top.20dp"
+            android:textColor="@color/textview.profile.text"
+            android:textSize="@dimen/textview.profile.size.18sp" />
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tvGender"
+            android:layout_marginTop="@dimen/textview.profile.infomation.margin_top.20dp"
+            android:textColor="@color/textview.profile.text"
+            android:textSize="@dimen/textview.profile.size.18sp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnChangePass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/button.profile.background"
+        android:text="@string/button.profile.text.change_pass"
+        android:textColor="@color/button.profile.text.changepass" />
 
 </RelativeLayout>

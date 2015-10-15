@@ -28,5 +28,9 @@
     <!--string file home-->
     <string name="edittext.home.text.hint.what_are_you_question">What are you question?</string>
     <string name="button.home.text.post">Post</string>
+    <string name="button.profile.text.change_pass">Change pass</string>
+    <string name="textview.profile.text.username">Username</string>
+    <string name="textview.profile.text.gender">Gender</string>
+    <string name="textview.profile.text.email">Email</string>
 
 </resources>
