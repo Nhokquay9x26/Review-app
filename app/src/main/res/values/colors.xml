@@ -42,4 +42,10 @@
     <color name="relativelayout.item_home.background">#C0C0C0</color>
     <color name="textview.item_home.text.username">#0099FF</color>
     <color name="textview.item_home.text.time">#000000</color>
+
+    <!--color file test custom-->
+    <color name="textview.test_custom.text.question">#000000</color>
+    <color name="view.test_custom.background">#C0C0C0</color>
+    <color name="textview.test_custom.text.numberquestion">#FFFFFF</color>
+    <color name="textview.test_custom.text.background">#0099FF</color>
 </resources>
