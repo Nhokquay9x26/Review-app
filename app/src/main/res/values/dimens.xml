@@ -38,4 +38,12 @@
     <dimen name="image.item_home.margin_left.10dp">10dp</dimen>
     <dimen name="linearlayout.item_home.margin_top.5dp">5dp</dimen>
 
+    <!--dimen file test custom-->
+    <dimen name="textview.test_custom.text.size.18sp">18sp</dimen>
+    <dimen name="relativelayout.test_custom.height.80dp">80dp</dimen>
+    <dimen name="relativelayout.test_custom.padding.10dp">10dp</dimen>
+    <dimen name="relativelayout.test_custom.margin.10dp">10dp</dimen>
+    <dimen name="view.test_custom.height.1dp">1dp</dimen>
+    <dimen name="view.test_custom.margin.5dp">5dp</dimen>
+    <dimen name="relativelayout.test_custom.margin_bottom.20dp">20dp</dimen>
 </resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rlQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/relativelayout.test_custom.height.80dp"
+        android:layout_margin="@dimen/relativelayout.test_custom.margin.10dp"
+        android:background="@drawable/shape_test"
+        android:padding="@dimen/relativelayout.test_custom.padding.10dp">
+
+        <TextView
+            android:id="@+id/tvQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textview.test_custom.text.question"
+            android:textSize="@dimen/textview.test_custom.text.size.18sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rlQuestion"
+        android:layout_margin="@dimen/relativelayout.test_custom.margin.10dp"
+        android:background="@drawable/shape_test">
+
+        <RadioGroup
+            android:id="@+id/rbgAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp">
+
+            <RadioButton
+                android:id="@+id/rbAnswerA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/rbAnswerB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/rbAnswerC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/rbAnswerD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view.test_custom.height.1dp"
+            android:layout_margin="@dimen/view.test_custom.margin.5dp"
+            android:layout_above="@+id/rlSnippet"
+            android:background="@color/view.test_custom.background" />
+
+        <RelativeLayout
+            android:id="@+id/rlSnippet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/relativelayout.test_custom.margin_bottom.20dp"
+            android:layout_alignParentBottom="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="8"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/BtnImgBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_back" />
+
+                <TextView
+                    android:id="@+id/numberQuestion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/textview.test_custom.text.background"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@color/textview.test_custom.text.numberquestion"
+                    android:textSize="@dimen/textview.test_custom.text.size.18sp" />
+
+                <ImageView
+                    android:id="@+id/BtnImgNext"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_next" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
