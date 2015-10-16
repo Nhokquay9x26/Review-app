@@ -54,4 +54,9 @@
     <color name="relativelayout.profile.background">#AAFFFFFF</color>
     <color name="button.profile.text.changepass">#FFFFFF</color>
     <color name="button.profile.background">#0099FF</color>
+
+    <!--color file item answer-->
+    <color name="relativelayout.item_answer.background">#C0C0C0</color>
+    <color name="textview.item_answer.text.username">#0099FF</color>
+    <color name="textview.item_answer.text.time">#000000</color>
 </resources>
