@@ -8,6 +8,8 @@
     <string name="button.login.text.login">Login</string>
     <string name="textview.login.text.forget_password">Forget Password</string>
     <string name="checkbox.login.text.remember_password">Remember Password</string>
+    <string name="textview_text_error_empty">Please input username or password</string>
+    <string name="textview_text_error_fail">Login Fail</string>
 
     <!--string file registe-->
     <string name="textview.register.text.tap_to_change_avatar">Tap to change profile image</string>
