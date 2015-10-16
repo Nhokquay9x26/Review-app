@@ -64,4 +64,13 @@
 
     <!--dimen file spinner-->
     <dimen name="spinner.profile.margin.10dp">10dp</dimen>
+
+    <!--dimen file item answer-->
+    <dimen name="relativelayout.item_answer.padding.5dp">5dp</dimen>
+    <dimen name="image.item_answer.margin.5dp">5dp</dimen>
+    <dimen name="linearlayout.item_answer.margin.5dp">5dp</dimen>
+    <dimen name="image.item_answer.height.40dp">40dp</dimen>
+    <dimen name="textview.item_answer.text.size.18sp">18sp</dimen>
+    <dimen name="image.item_answer.margin_left.10dp">10dp</dimen>
+    <dimen name="linearlayout.item_answer.margin_top.5dp">5dp</dimen>
 </resources>

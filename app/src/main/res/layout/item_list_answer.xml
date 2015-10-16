@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_post"
+    android:padding="@dimen/relativelayout.item_answer.padding.5dp">
+
+    <LinearLayout
+        android:id="@+id/llQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <asiantech.nhokquay9x26.appreviewasiantech.views.CircleImageView
+            android:id="@+id/imgAvatar"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/image.item_answer.height.40dp"
+            android:layout_margin="@dimen/image.item_answer.margin.5dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_avatar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/linearlayout.item_answer.margin.5dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nhokquay"
+                android:textColor="@color/textview.item_answer.text.username"
+                android:textSize="@dimen/textview.item_answer.text.size.18sp" />
+
+            <TextView
+                android:id="@+id/tvTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vừa xong"
+                android:textColor="@color/textview.item_answer.text.time" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llQuestion"
+        android:text="Nếu có một ngày, anh sẽ về thăm nơi ngoại thành xa, căn nhà vừa xây, mới hôm qua" />
+
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tvQuestion"
+        android:background="#FFFFFF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/linearlayout.item_answer.margin_top.5dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/line">
+
+        <ImageView
+            android:id="@+id/BtnImglike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="center"
+            android:src="@drawable/ic_like"/>
+
+        <TextView
+            android:id="@+id/tvLike"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 0 like" />
+
+        <ImageView
+            android:id="@+id/BtnImgComment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/image.item_answer.margin_left.10dp"
+            android:scaleType="center"
+            android:src="@drawable/ic_comment"/>
+
+        <TextView
+            android:id="@+id/tvComment"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 0 comment" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
